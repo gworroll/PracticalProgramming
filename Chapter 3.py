@@ -94,4 +94,14 @@ def weeks_elapsed(day1, day2):
     return abs_of_diff(day1, day2) // 7
 
 
+# Exercise 10
+def square(num):
+    """ (number) -> number
+    Return the square of num.
+    >>> square(3)
+    9
+    """
+    return num * num
+
+
 doctest.testmod()
